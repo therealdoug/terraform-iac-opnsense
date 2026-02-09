@@ -1,0 +1,34 @@
+version: '>= 0.1.0'
+
+formatter: markdown table
+
+content: |-
+  # Terraform Firewall Category Module
+
+  Manages OPNSense Firewall Categories
+
+  Location in GUI:
+  `Firewall` » `Categories`
+
+  ## Examples
+
+  ```hcl
+  {{ include "./examples/complete/main.tf" }}
+  ```
+
+  {{ .Requirements }}
+
+  {{ .Providers }}
+
+  {{ .Inputs }}
+
+  {{ .Outputs }}
+
+  {{ .Resources }}
+
+output:
+  file: README.md
+  mode: replace
+
+sort:
+  enabled: false
