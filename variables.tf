@@ -1,5 +1,5 @@
 locals {
-  opnsense = yamldecode(file("./labfw/lab_data.yaml"))
+  opnsense = yamldecode(file("data.yaml"))
 }
 
 variable "terraform_annotation" {
